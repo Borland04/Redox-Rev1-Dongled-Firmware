@@ -19,10 +19,10 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: redox_dongled_left
+    shield: redox-dongled_left
   - board: nice_nano_v2
-    shield: redox_dongled_right
+    shield: redox-dongled_right
   - board: nice_nano_v2
-    shield: redox_dongled_dongle
+    shield: redox-dongled_dongle
   - board: nice_nano_v2
     shield: settings_reset
