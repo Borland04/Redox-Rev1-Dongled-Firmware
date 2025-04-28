@@ -3,7 +3,7 @@
 if SHIELD_REDOX_DONGLED_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Redox"
+    default "Redox (Dongle)"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
