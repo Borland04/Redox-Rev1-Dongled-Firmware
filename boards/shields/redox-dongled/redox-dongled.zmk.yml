@@ -1,0 +1,13 @@
+file_format: "1"
+id: redox-dongled
+name: Redox
+type: shield
+url: https://github.com/mattdibi/redox-keyboard
+requires: [pro_micro]
+features:
+  - keys
+  - underglow
+siblings:
+  - redox-dongled_left
+  - redox-dongled_right
+  - redox-dongled_dongle
