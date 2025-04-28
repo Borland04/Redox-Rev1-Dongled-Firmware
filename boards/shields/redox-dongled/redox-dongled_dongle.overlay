@@ -6,6 +6,7 @@
     compatible = "zmk,physical-layout";
     display-name = "Default Layout";
     transform = <&default_transform>;
+    kscan = <&mock_kscan>;
 };
 
 / {
@@ -14,7 +15,7 @@
         zmk,physical-layout = &physical_layout0;
     };
 
-    mock_kscan: mock_kscan_0 {
+    kock_kscan: mock_kscan_0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
