@@ -1,11 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-##include "redox-dongled-layouts.dtsi"
+#include "redox-dongled-layouts.dtsi"
 
 &physical_layout0 {
-    compatible = "zmk,physical-layout";
-    display-name = "Default Layout";
-    transform = <&default_transform>;
     kscan = <&mock_kscan>;
+    transform = <&default_transform>;
 };
 
 
